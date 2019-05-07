@@ -1,6 +1,5 @@
 ---
-- hosts: localhost
-  connection: local
+- hosts: web
   become: true
   roles:
     - redhatofficial.rhel7_stig
